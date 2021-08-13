@@ -1,4 +1,5 @@
 :root {
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color: #2a313d;
@@ -15,7 +16,6 @@ header h1 {
     display: block;
     font-size: 36px;
     background-color: var(--seafoam);
-
 }
 
 nav {
@@ -31,16 +31,17 @@ nav ul {
     margin-inline-end: 1rem;
     margin-inline-start: 0;
     margin-inline-end: 0;
-    padding-inline-start: 40px;
     position: relative;
+    background-color: var(--seafoam);
+    height: 30px;
+    text-align: center;
 }
 
-nav li {
+nav a {
     display: list-item;
     text-align: right;
     padding: 5px;
     font-weight: bold;
-    border: 2px solid var(--seafoam);
     margin: auto;
     margin-top: -1rem;
 }
@@ -49,7 +50,7 @@ nav li {
     position: absolute;
     padding: 0px;
     right: 0px;
-    color: #88bdb8;
+    color: var(--seafoam);
 }
 
 .hero {
@@ -62,15 +63,157 @@ nav li {
     display: flex;
 }
 
+
 .hero h2 {
     position: relative;
     display: flex;
-    height: 15%;
+    height: 5%;
     font-size: 125%;
-    padding: 5px;
-    margin: 170px 100px 0 0;
+    padding: 1rem;
+    margin: 150px 100px 0 0;
     align-items: center;
-    background-color: #88bdb8;
-    right: 0px;
-    bottom: 5px;
+    background-color: var(--seafoam);
+    bottom: -60px;
+    left: 1135px;
 }
+
+
+section {
+    display: flex column;
+    float: right;
+    width: 70%;
+}
+
+.about-me {
+    width: 100%;
+}
+
+.about-me p {
+    margin: 3px;
+    padding: 3px;
+    width: 100%;
+}
+
+.projects {
+    width: 100%;
+}
+
+.project-1 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/skatepark-image.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--seafoam);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-1 h3 {
+    position: absolute;
+    background-color: var(--seafoam);
+    color: var(--slate);
+    padding: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.project-2 {
+    position: relative;
+    width: 50%;
+    height: 230px;
+    background-image: url(../images/cocktail.jpg.crdownload);
+    background-size: cover;
+    background-position: bottom;
+    border: 2px solid var(--seafoam);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-2 h3 {
+    position: absolute;
+    background-color: var(--seafoam);
+    color: var(--slate);
+    padding: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.project-3 {
+    position: relative;
+    width: 50%;
+    height: 230px;
+    background-image: url(../images/waterfall.JPG);
+    background-size: cover;
+    background-position: bottom;
+    border: 2px solid var(--seafoam);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-3 h3 {
+    position: absolute;
+    background-color: var(--seafoam);
+    color: var(--slate);
+    padding: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.project-4 {
+    position: relative;
+    width: 50%;
+    height: 230px;
+    background-image: url(../images/pepper-plant.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border: 2px solid var(--seafoam);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-4 h3 {
+    position: absolute;
+    background-color: var(--seafoam);
+    color: var(--slate);
+    padding: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.project-5 {
+    position: relative;
+    width: 50%;
+    height: 230px;
+    background-image: url(../images/bread.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--seafoam);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project-5 h3 {
+    position: absolute;
+    background-color: var(--seafoam);
+    color: var(--slate);
+    padding: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+/* Doesn't fill the width of the screen*/
