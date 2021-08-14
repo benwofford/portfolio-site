@@ -79,141 +79,88 @@ nav a {
 
 
 section {
-    display: flex column;
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*float: right;*/
     width: 70%;
 }
 
-.about-me {
-    width: 100%;
+section h1 {
+    flex-basis: 20%;
+}
+
+.about-me, .projects, .contact{
+    flex-basis: 80%;
 }
 
 .about-me p {
     margin: 3px;
     padding: 3px;
-    width: 100%;
+    /*width: 100%;*/
 }
 
-.projects {
-    width: 100%;
+
+
+.card {
+    border: 5px solid var(--seafoam);
+    border-radius: 2px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    margin: 1.5%;
+    height: 200px;
+    flex: 1 1 45%;
+    min-width: 255px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
 }
 
-.project-1 {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    background-image: url(../images/skatepark-image.jpg);
+#project-1 {
+    background-image:  url(../images/skatepark-image.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid var(--seafoam);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
-.project-1 h3 {
-    position: absolute;
-    background-color: var(--seafoam);
-    color: var(--slate);
-    padding: 10px;
-    bottom: 10px;
-    left: 10px;
-}
-
-.project-2 {
-    position: relative;
-    width: 50%;
-    height: 230px;
-    background-image: url(../images/cocktail.jpg.crdownload);
+#project-2 {
+    background-image:  url(../images/cocktail.jpg.crdownload);
     background-size: cover;
-    background-position: bottom;
-    border: 2px solid var(--seafoam);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.project-2 h3 {
-    position: absolute;
-    background-color: var(--seafoam);
-    color: var(--slate);
-    padding: 10px;
-    bottom: 10px;
-    left: 10px;
-}
-
-.project-3 {
-    position: relative;
-    width: 50%;
-    height: 230px;
-    background-image: url(../images/waterfall.JPG);
-    background-size: cover;
-    background-position: bottom;
-    border: 2px solid var(--seafoam);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.project-3 h3 {
-    position: absolute;
-    background-color: var(--seafoam);
-    color: var(--slate);
-    padding: 10px;
-    bottom: 10px;
-    left: 10px;
-}
-
-.project-4 {
-    position: relative;
-    width: 50%;
-    height: 230px;
-    background-image: url(../images/pepper-plant.jpg);
-    background-size: cover;
-    background-position: bottom;
-    border: 2px solid var(--seafoam);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.project-4 h3 {
-    position: absolute;
-    background-color: var(--seafoam);
-    color: var(--slate);
-    padding: 10px;
-    bottom: 10px;
-    left: 10px;
-}
-
-.project-5 {
-    position: relative;
-    width: 50%;
-    height: 230px;
-    background-image: url(../images/bread.jpg);
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid var(--seafoam);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
 
-.project-5 h3 {
-    position: absolute;
-    background-color: var(--seafoam);
-    color: var(--slate);
-    padding: 10px;
-    bottom: 10px;
-    left: 10px;
+#project-3 {
+    background-image:  url(../images/waterfall.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
 }
+
+#project-4 {
+    background-image:  url(../images/pepper-plant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+#project-5 {
+    background-image:  url(../images/bread.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
 /* Doesn't fill the width of the screen*/
+/* Need to fix background color position of Nav*/
+/* Inserting images into projects*/
+/* media queries */
+/* insert a picture of myself */
+/* build out aside */
+/* build out footer */
+/* README */
