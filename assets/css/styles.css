@@ -8,6 +8,11 @@
     --seafoam: #88bdb8;
 }
 
+body {
+    height: auto;
+    width: 100%;
+}
+
 header {
     display: flex;
     padding-top: 20px;
@@ -17,6 +22,7 @@ header {
 
 header h1 {
     display: flex;
+    flex-wrap: wrap;
     font-size: 36px;
     background-color: var(--seafoam);
     padding: 10px 10px 10px 100px;
@@ -25,10 +31,11 @@ header h1 {
 }
 
 nav {
-    padding-top: 15px;
+    padding-top: 20px;
     margin-right: 20px;
     float: right;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul {
@@ -43,7 +50,7 @@ nav ul {
     text-align: center;
 }
 
-nav a {
+nav li {
     display: list-item;
     text-align: right;
     padding: 5px;
@@ -57,6 +64,12 @@ nav a {
     padding: 0px;
     right: 0px;
     color: var(--seafoam);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .hero {
@@ -179,13 +192,14 @@ section h1 {
 
 .contact ul {
     display: flex;
+    flex-direction: column;
     position: relative;
     background-color: var(--seafoam);
     height: 30px;
     text-align: center;
 }
 
-#contact a {
+.contact a {
     display: flex;
     text-align: right;
     padding: 5px;
@@ -195,13 +209,26 @@ section h1 {
 }
 
 footer {
+    display: flex;
     border: 2px solid var(--seafoam);
     padding: 10px;
     margin: 5px;
     text-align: center;
 }
 
+@media screen and (max-width:769px) {
+    nav ul {
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+        float: none;
+    }
+}
 
-
+/* @media screen (max-width:769px) {
+    .hero {
+        
+    }
+}
 /* media queries */
 /* README */
