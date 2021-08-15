@@ -2,20 +2,26 @@
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    color: white;
     background-color: #2a313d;
     --slate: #2a313d;
     --seafoam: #88bdb8;
 }
 
 header {
-    padding: 15px;
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../images/blue-code.jpg);
 }
 
 header h1 {
-    display: block;
+    display: flex;
     font-size: 36px;
     background-color: var(--seafoam);
+    padding: 10px 10px 10px 100px;
+    margin: 0px;
+    color: var(--slate);
 }
 
 nav {
@@ -27,8 +33,8 @@ nav {
 
 nav ul {
     display: flex;
-    margin-block-start: 1rem;
-    margin-inline-end: 1rem;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
     margin-inline-start: 0;
     margin-inline-end: 0;
     position: relative;
@@ -43,7 +49,7 @@ nav a {
     padding: 5px;
     font-weight: bold;
     margin: auto;
-    margin-top: -1rem;
+    margin-top: 0px;
 }
 
 .menu {
@@ -57,37 +63,39 @@ nav a {
     height: 300px;
     width: 100%;
     margin-bottom: 20px;
-    background-image: url(../images/blue-code.jpg);
+    background-image: url(../images/ben-and-oakley.png);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     display: flex;
+    position: relative;
 }
 
-
 .hero h2 {
-    position: relative;
+    position: absolute;
     display: flex;
     height: 5%;
     font-size: 125%;
-    padding: 1rem;
-    margin: 150px 100px 0 0;
+    font-weight: bold;
+    padding: 1em;
+    margin: 200px 0 0 0;
     align-items: center;
     background-color: var(--seafoam);
-    bottom: -60px;
-    left: 1135px;
+    color: var(--slate);
+    right: 0px;
 }
-
 
 section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /*float: right;*/
-    width: 70%;
+    width: 80%;
 }
 
 section h1 {
     flex-basis: 20%;
+    font-size: 150%;
+    text-decoration: solid;
+    text-align: justify;
 }
 
 .about-me, .projects, .contact{
@@ -97,16 +105,14 @@ section h1 {
 .about-me p {
     margin: 3px;
     padding: 3px;
-    /*width: 100%;*/
+    line-height: 1.5em;
 }
-
-
 
 .card {
     border: 5px solid var(--seafoam);
     border-radius: 2px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.2s;
+    transition: 0.5s;
     margin: 1.5%;
     height: 200px;
     flex: 1 1 45%;
@@ -114,10 +120,25 @@ section h1 {
     display: flex;
     justify-content: left;
     align-items: flex-end;
+    position: relative;
+}
+
+.card:hover {
+    border-radius: 25px;
+    transform: scale(0.9);
+}
+
+.card h3 {
+    position: absolute;
+    background-color: var(--seafoam);
+    color: var(--slate);
+    padding: 10px;
+    bottom: 10px;
+    left: 10px;
 }
 
 #project-1 {
-    background-image:  url(../images/skatepark-image.jpg);
+    background-image:  url(../images/digital-marketing-meeting.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -125,7 +146,7 @@ section h1 {
 }
 
 #project-2 {
-    background-image:  url(../images/cocktail.jpg.crdownload);
+    background-image:  url(../images/skatepark-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -136,7 +157,7 @@ section h1 {
     background-image:  url(../images/waterfall.JPG);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     display: flex;
 }
 
@@ -156,11 +177,31 @@ section h1 {
     display: flex;
 }
 
-/* Doesn't fill the width of the screen*/
-/* Need to fix background color position of Nav*/
-/* Inserting images into projects*/
+.contact ul {
+    display: flex;
+    position: relative;
+    background-color: var(--seafoam);
+    height: 30px;
+    text-align: center;
+}
+
+#contact a {
+    display: flex;
+    text-align: right;
+    padding: 5px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+footer {
+    border: 2px solid var(--seafoam);
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
 /* media queries */
-/* insert a picture of myself */
-/* build out aside */
-/* build out footer */
 /* README */
