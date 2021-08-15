@@ -213,7 +213,6 @@ footer {
     border: 2px solid var(--seafoam);
     padding: 10px;
     margin: 5px;
-    text-align: center;
 }
 
 @media screen and (max-width:769px) {
