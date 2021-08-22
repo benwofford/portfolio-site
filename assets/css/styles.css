@@ -156,10 +156,11 @@ section h1 {
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    height: 500px;
 }
 
 #project-2 {
-    background-image:  url(../images/skatepark-image.jpg);
+    background-image:  url(../images/password-generator.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -167,6 +168,14 @@ section h1 {
 }
 
 #project-3 {
+    background-image:  url(../images/skatepark-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+#project-4 {
     background-image:  url(../images/waterfall.JPG);
     background-size: cover;
     background-repeat: no-repeat;
@@ -174,16 +183,8 @@ section h1 {
     display: flex;
 }
 
-#project-4 {
-    background-image:  url(../images/pepper-plant.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-}
-
 #project-5 {
-    background-image:  url(../images/bread.jpg);
+    background-image:  url(../images/pepper-plant.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -192,7 +193,11 @@ section h1 {
 
 .contact ul {
     display: flex;
-    flex-direction: column;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    flex-direction: row;
     position: relative;
     background-color: var(--seafoam);
     height: 30px;
@@ -201,11 +206,13 @@ section h1 {
 
 .contact a {
     display: flex;
-    text-align: right;
+    text-align: center;
     padding: 5px;
     font-weight: bold;
     margin: auto;
     margin-bottom: 0px;
+    list-style-type: none;
+    padding-inline-start: 20px;
 }
 
 footer {
@@ -215,10 +222,11 @@ footer {
     margin: 5px;
 }
 
+
 @media screen and (max-width:769px) {
     nav ul {
-        height: 230px;
-        flex-direction: column;
+        height: 50px;
+        flex-direction: row;
         text-align: center;
         float: none;
     }
