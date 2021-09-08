@@ -174,7 +174,7 @@ section h1 {
 }
 
 #project-3 {
-    background-image:  url(../images/skatepark-image.jpg);
+    background-image:  url(../images/coding-quiz.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -182,10 +182,10 @@ section h1 {
 }
 
 #project-4 {
-    background-image:  url(../images/waterfall.JPG);
+    background-image:  url(../images/day-planner.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
     display: flex;
 }
 
