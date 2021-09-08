@@ -190,7 +190,7 @@ section h1 {
 }
 
 #project-5 {
-    background-image:  url(../images/pepper-plant.jpg);
+    background-image:  url(../images/skatepark-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -232,14 +232,17 @@ footer {
 @media screen and (max-width:769px) {
     nav ul {
         height: 50px;
-        flex-direction: row;
+        flex-direction: column;
         text-align: center;
         float: none;
     }
 }
 
-/* @media screen (max-width:769px) {
+/* @media screen and (max-width:769px) {
     .hero {
-        
+        height:250px
+        flex-direction: column;
+        width:100%;
+        margin: 20px;
     }
 }
