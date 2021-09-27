@@ -6,6 +6,7 @@
     background-color: #2a313d;
     --slate: #2a313d;
     --seafoam: #88bdb8;
+    text-decoration: none;
 }
 
 body {
@@ -129,9 +130,9 @@ section h1 {
 
 .card {
     border: 5px solid var(--seafoam);
-    border-radius: 2px;
+    border-radius: 1px;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
+    transition: 0.75s;
     margin: 1.5%;
     height: 200px;
     flex: 1 1 45%;
@@ -152,21 +153,32 @@ section h1 {
     background-color: var(--seafoam);
     color: var(--slate);
     padding: 10px;
+    bottom: 60px;
+    left: 10px;
+    text-decoration: none;
+}
+
+.card h2 {
+    position: absolute;
+    background-color: var(--seafoam);
+    color: var(--slate);
+    padding: 8px;
     bottom: 10px;
     left: 10px;
+    text-decoration: none;
 }
 
 #project-1 {
-    background-image:  url(../images/digital-marketing-meeting.jpg);
+    background-image:  url(../images/sipNshow-search.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     display: flex;
     height: 500px;
 }
 
 #project-2 {
-    background-image:  url(../images/password-generator.png);
+    background-image:  url(../images/digital-marketing-meeting.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -174,7 +186,7 @@ section h1 {
 }
 
 #project-3 {
-    background-image:  url(../images/coding-quiz.png);
+    background-image:  url(../images/password-generator.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -182,18 +194,18 @@ section h1 {
 }
 
 #project-4 {
-    background-image:  url(../images/day-planner.png);
+    background-image:  url(../images/coding-quiz.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     display: flex;
 }
 
 #project-5 {
-    background-image:  url(../images/skatepark-image.jpg);
+    background-image:  url(../images/day-planner.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     display: flex;
 }
 
@@ -208,6 +220,7 @@ section h1 {
     background-color: var(--seafoam);
     height: 30px;
     text-align: center;
+    text-decoration: none;
 }
 
 .contact a {
@@ -219,6 +232,7 @@ section h1 {
     margin-bottom: 0px;
     list-style-type: none;
     padding-inline-start: 20px;
+    text-decoration: none;
 }
 
 footer {
@@ -226,8 +240,12 @@ footer {
     border: 2px solid var(--seafoam);
     padding: 10px;
     margin: 5px;
+    text-decoration: none;
 }
 
+#resume {
+    align-content: center;
+}
 
 @media screen and (max-width:769px) {
     nav ul {
