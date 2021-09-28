@@ -144,8 +144,11 @@ section h1 {
 }
 
 .card:hover {
-    border-radius: 25px;
-    transform: scale(0.9);
+    border-radius: 20px;
+}
+
+.card a {
+    text-decoration: none;
 }
 
 .card h3 {
@@ -233,18 +236,6 @@ section h1 {
     list-style-type: none;
     padding-inline-start: 20px;
     text-decoration: none;
-}
-
-footer {
-    display: flex;
-    border: 2px solid var(--seafoam);
-    padding: 10px;
-    margin: 5px;
-    text-decoration: none;
-}
-
-#resume {
-    align-content: center;
 }
 
 @media screen and (max-width:769px) {
