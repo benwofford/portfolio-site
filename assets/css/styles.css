@@ -18,7 +18,7 @@ header {
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url('/images/blue-code.jpg');
+    background-image: url('../images/blue-code.jpg');
 }
 
 header h1 {
@@ -83,7 +83,7 @@ main {
     height: 300px;
     width: 100%;
     margin-bottom: 20px;
-    background-image: url('/images/ben-and-oakley.png');
+    background-image: url('../images/ben-and-oakley.png');
     background-size: cover;
     background-position: top;
     display: flex;
@@ -172,7 +172,7 @@ section h1 {
 }
 
 #project-1 {
-    background-image:  url('/images/sipNshow-search.png');
+    background-image:  url('../images/sipNshow-search.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -181,7 +181,7 @@ section h1 {
 }
 
 #project-2 {
-    background-image:  url('/images/digital-marketing-meeting.jpg');
+    background-image:  url('../images/digital-marketing-meeting.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -189,7 +189,7 @@ section h1 {
 }
 
 #project-3 {
-    background-image:  url('/images/password-generator.png');
+    background-image:  url('../images/password-generator.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -197,7 +197,7 @@ section h1 {
 }
 
 #project-4 {
-    background-image:  url('/images/coding-quiz.png');
+    background-image:  url('../images/coding-quiz.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -205,7 +205,7 @@ section h1 {
 }
 
 #project-5 {
-    background-image:  url('/images/day-planner.png');
+    background-image:  url('../images/day-planner.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
