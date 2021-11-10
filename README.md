@@ -13,7 +13,7 @@ This page was created to showcase my current and future projects all in one conv
 
 Here's the main build,
 
-![alt=screenshot of resume page] ('/images/main-build.png')
+![alt=screenshot of resume page] ('images/main-build.png')
 
 ## Features
 
