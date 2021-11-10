@@ -1,41 +1,30 @@
-# homework-week-2## Portfolio Page ##
+# Portfolio Page
 
 This page was created to showcase my current and future projects all in one convenient place with contact info and a little snapshot of who I am 📷
 
-## Motivation for Creation ##
+## Table of Contents
 
-This is a great way to grow my web presence and show the skills I gain throughout the course and beyond.
+- [Screenshots ](#Screenshots)
+- [Features](#Features)
+- [Repository Link](#Repository)
+- [Questions](#Questions)
 
-## Screenshots ##
+## Screenshots
 
 Here's the main build,
 
 ![screenshot of resume page] (./assets/images/screenshots/main-build.png)
 
-## Features ##
+## Features
 
-Updated projects
+Updated recent projects.
 
-## Code Example ##
+## Repository
 
---
+- [Github](https://github.com/benwofford/portfolio-site)
 
-## Installation ##
+## Questions
 
---
+For any questions regarding this project, please reach out via email:
 
-## How To Use ##
-
---
-
-## Contribute ##
-
---
-
-## Credits ##
-
---
-
-## License ##
-
---
+[woffordbt@gmail.com] (mailto:woffordbt@gmail.com)
