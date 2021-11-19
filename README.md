@@ -12,8 +12,8 @@ This page was created to showcase my current and future projects all in one conv
 ## Screenshots
 
 Here's the main build,
-
-![alt=screenshot of resume page] <img src="/assets/images/main-build.png" />
+TODO: add in updated photo
+<img src="/assets/images/main-build.png" />
 
 ## Features
 
