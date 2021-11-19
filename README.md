@@ -13,7 +13,7 @@ This page was created to showcase my current and future projects all in one conv
 
 Here's the main build,
 TODO: add in updated photo
-<img src="/assets/images/main-build.png" />
+<img src="/assets/images/main-build2.png" />
 
 ## Features
 
