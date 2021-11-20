@@ -73,6 +73,7 @@ nav a {
   padding: 0px;
   right: 0px;
   color: var(--seafoam);
+  z-index: 100;
 }
 
 main {
@@ -90,6 +91,7 @@ main {
   background-position: top;
   display: flex;
   position: relative;
+  z-index: 0;
 }
 
 .hero h2 {
@@ -226,7 +228,7 @@ section h1 {
   flex-direction: row;
   position: relative;
   background-color: var(--seafoam);
-  height: 30px;
+  height: 40px;
   text-align: center;
   text-decoration: none;
 }
@@ -245,10 +247,14 @@ section h1 {
 
 @media screen and (max-width: 769px) {
   nav ul {
-    height: 50px;
+    height: fit-content;
     flex-direction: column;
     text-align: center;
     float: none;
+  }
+
+  .menu {
+    z-index: 100;
   }
 }
 
