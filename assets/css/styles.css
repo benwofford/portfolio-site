@@ -247,6 +247,7 @@ section h1 {
 
 @media screen and (max-width: 769px) {
   nav ul {
+    /* TODO: try the same thing below on the footer? */
     height: fit-content;
     flex-direction: column;
     text-align: center;
@@ -255,6 +256,13 @@ section h1 {
 
   .menu {
     z-index: 100;
+  }
+
+  .contact ul {
+    height: fit-content;
+    flex-direction: column;
+    text-align: center;
+    float: none;
   }
 }
 
@@ -272,12 +280,3 @@ section h1 {
     padding-bottom: 20px;
   }
 }
-
-/* @media (max-width: 1280px) {
-  .hero {
-    height: 250px;
-    flex-direction: column;
-    width: 100%;
-    margin: 20px;
-  }
-} */
