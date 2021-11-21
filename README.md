@@ -2,6 +2,8 @@
 
 This page was created to showcase my current and future projects all in one convenient place with contact info and a little snapshot of who I am 📷
 
+The deployment can be found [here](https://benwofford.github.io/portfolio-site/)
+
 ## Table of Contents
 
 - [Screenshots ](#Screenshots)
