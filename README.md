@@ -7,7 +7,6 @@ This page was created to showcase my current and future projects all in one conv
 - [Screenshots ](#Screenshots)
 - [Features](#Features)
 - [Repository Link](#Repository)
-- [License] (#License)
 - [Questions](#Questions)
 
 ## Screenshots
