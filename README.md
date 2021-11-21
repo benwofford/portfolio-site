@@ -16,6 +16,12 @@ The deployment can be found [here](https://benwofford.github.io/portfolio-site/)
 Here's the main build,
 <img src="/assets/images/main-build2.png" />
 
+Here are some of the nav elements that are cooperating for mobile development,
+<img src="/assets/images/mobile-nav.png" />
+
+The footer is also displaying appropriately as well,
+<img src="/assets/images/mobile-nav2.png" />
+
 ## Features
 
 Updated recent projects and fixed mobile responsive design elements.
